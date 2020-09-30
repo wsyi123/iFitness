@@ -1,0 +1,205 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.lilei.fitness"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="15"
+8-->C:\Users\wsyi1\Desktop\Fitness\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="25" />
+9-->C:\Users\wsyi1\Desktop\Fitness\app\src\main\AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+11-->C:\Users\wsyi1\Desktop\Fitness\app\src\main\AndroidManifest.xml:5:5-80
+11-->C:\Users\wsyi1\Desktop\Fitness\app\src\main\AndroidManifest.xml:5:22-77
+12    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+12-->C:\Users\wsyi1\Desktop\Fitness\app\src\main\AndroidManifest.xml:6:5-81
+12-->C:\Users\wsyi1\Desktop\Fitness\app\src\main\AndroidManifest.xml:6:22-78
+13    <uses-permission android:name="android.permission.INTERNET" />
+13-->C:\Users\wsyi1\Desktop\Fitness\app\src\main\AndroidManifest.xml:7:5-67
+13-->C:\Users\wsyi1\Desktop\Fitness\app\src\main\AndroidManifest.xml:7:22-64
+14
+15    <meta-data
+15-->[com.android.support:design:25.3.0] C:\Users\wsyi1\.gradle\caches\transforms-2\files-2.1\661fc37ac180681950cdb4fd2f5c9a4b\design-25.3.0\AndroidManifest.xml:25:5-27:34
+16        android:name="android.support.VERSION"
+16-->[com.android.support:design:25.3.0] C:\Users\wsyi1\.gradle\caches\transforms-2\files-2.1\661fc37ac180681950cdb4fd2f5c9a4b\design-25.3.0\AndroidManifest.xml:26:9-47
+17        android:value="25.3.0" />
+17-->[com.android.support:design:25.3.0] C:\Users\wsyi1\.gradle\caches\transforms-2\files-2.1\661fc37ac180681950cdb4fd2f5c9a4b\design-25.3.0\AndroidManifest.xml:27:9-31
+18
+19    <application
+19-->C:\Users\wsyi1\Desktop\Fitness\app\src\main\AndroidManifest.xml:9:5-83:19
+20        android:allowBackup="true"
+20-->C:\Users\wsyi1\Desktop\Fitness\app\src\main\AndroidManifest.xml:10:9-35
+21        android:debuggable="true"
+22        android:icon="@drawable/fitness"
+22-->C:\Users\wsyi1\Desktop\Fitness\app\src\main\AndroidManifest.xml:11:9-41
+23        android:label="@string/app_name"
+23-->C:\Users\wsyi1\Desktop\Fitness\app\src\main\AndroidManifest.xml:12:9-41
+24        android:roundIcon="@drawable/fitness_round"
+24-->C:\Users\wsyi1\Desktop\Fitness\app\src\main\AndroidManifest.xml:13:9-52
+25        android:supportsRtl="true"
+25-->C:\Users\wsyi1\Desktop\Fitness\app\src\main\AndroidManifest.xml:14:9-35
+26        android:testOnly="true"
+27        android:theme="@style/AppTheme" >
+27-->C:\Users\wsyi1\Desktop\Fitness\app\src\main\AndroidManifest.xml:15:9-40
+28        <activity
+28-->C:\Users\wsyi1\Desktop\Fitness\app\src\main\AndroidManifest.xml:16:9-24:20
+29            android:name="com.lilei.fitness.view.SplashActivity"
+29-->C:\Users\wsyi1\Desktop\Fitness\app\src\main\AndroidManifest.xml:17:13-48
+30            android:screenOrientation="portrait" >
+30-->C:\Users\wsyi1\Desktop\Fitness\app\src\main\AndroidManifest.xml:18:13-49
+31            <intent-filter>
+31-->C:\Users\wsyi1\Desktop\Fitness\app\src\main\AndroidManifest.xml:19:13-23:29
+32                <action android:name="android.intent.action.MAIN" />
+32-->C:\Users\wsyi1\Desktop\Fitness\app\src\main\AndroidManifest.xml:20:17-69
+32-->C:\Users\wsyi1\Desktop\Fitness\app\src\main\AndroidManifest.xml:20:25-66
+33
+34                <category android:name="android.intent.category.LAUNCHER" />
+34-->C:\Users\wsyi1\Desktop\Fitness\app\src\main\AndroidManifest.xml:22:17-77
+34-->C:\Users\wsyi1\Desktop\Fitness\app\src\main\AndroidManifest.xml:22:27-74
+35            </intent-filter>
+36        </activity>
+37        <activity
+37-->C:\Users\wsyi1\Desktop\Fitness\app\src\main\AndroidManifest.xml:25:9-28:52
+38            android:name="com.lilei.fitness.view.MainActivity"
+38-->C:\Users\wsyi1\Desktop\Fitness\app\src\main\AndroidManifest.xml:26:13-46
+39            android:launchMode="singleTop"
+39-->C:\Users\wsyi1\Desktop\Fitness\app\src\main\AndroidManifest.xml:27:13-43
+40            android:screenOrientation="portrait" />
+40-->C:\Users\wsyi1\Desktop\Fitness\app\src\main\AndroidManifest.xml:28:13-49
+41        <activity
+41-->C:\Users\wsyi1\Desktop\Fitness\app\src\main\AndroidManifest.xml:30:9-33:52
+42            android:name="com.lilei.fitness.view.LoginActivity"
+42-->C:\Users\wsyi1\Desktop\Fitness\app\src\main\AndroidManifest.xml:31:13-47
+43            android:launchMode="singleTop"
+43-->C:\Users\wsyi1\Desktop\Fitness\app\src\main\AndroidManifest.xml:32:13-43
+44            android:screenOrientation="portrait" />
+44-->C:\Users\wsyi1\Desktop\Fitness\app\src\main\AndroidManifest.xml:33:13-49
+45        <activity
+45-->C:\Users\wsyi1\Desktop\Fitness\app\src\main\AndroidManifest.xml:35:9-38:52
+46            android:name="com.lilei.fitness.view.RegisterActivity"
+46-->C:\Users\wsyi1\Desktop\Fitness\app\src\main\AndroidManifest.xml:36:13-50
+47            android:launchMode="singleTop"
+47-->C:\Users\wsyi1\Desktop\Fitness\app\src\main\AndroidManifest.xml:37:13-43
+48            android:screenOrientation="portrait" />
+48-->C:\Users\wsyi1\Desktop\Fitness\app\src\main\AndroidManifest.xml:38:13-49
+49        <activity
+49-->C:\Users\wsyi1\Desktop\Fitness\app\src\main\AndroidManifest.xml:39:9-42:52
+50            android:name="com.lilei.fitness.view.DateCheckActivity"
+50-->C:\Users\wsyi1\Desktop\Fitness\app\src\main\AndroidManifest.xml:40:13-51
+51            android:launchMode="singleTop"
+51-->C:\Users\wsyi1\Desktop\Fitness\app\src\main\AndroidManifest.xml:41:13-43
+52            android:screenOrientation="portrait" />
+52-->C:\Users\wsyi1\Desktop\Fitness\app\src\main\AndroidManifest.xml:42:13-49
+53        <activity
+53-->C:\Users\wsyi1\Desktop\Fitness\app\src\main\AndroidManifest.xml:43:9-46:52
+54            android:name="com.lilei.fitness.view.ConfigActivity"
+54-->C:\Users\wsyi1\Desktop\Fitness\app\src\main\AndroidManifest.xml:44:13-48
+55            android:launchMode="singleTop"
+55-->C:\Users\wsyi1\Desktop\Fitness\app\src\main\AndroidManifest.xml:45:13-43
+56            android:screenOrientation="portrait" />
+56-->C:\Users\wsyi1\Desktop\Fitness\app\src\main\AndroidManifest.xml:46:13-49
+57        <activity
+57-->C:\Users\wsyi1\Desktop\Fitness\app\src\main\AndroidManifest.xml:47:9-50:52
+58            android:name="com.lilei.fitness.view.ReleaseNewsActivity"
+58-->C:\Users\wsyi1\Desktop\Fitness\app\src\main\AndroidManifest.xml:48:13-53
+59            android:launchMode="singleTop"
+59-->C:\Users\wsyi1\Desktop\Fitness\app\src\main\AndroidManifest.xml:49:13-43
+60            android:screenOrientation="portrait" />
+60-->C:\Users\wsyi1\Desktop\Fitness\app\src\main\AndroidManifest.xml:50:13-49
+61        <activity
+61-->C:\Users\wsyi1\Desktop\Fitness\app\src\main\AndroidManifest.xml:51:9-54:52
+62            android:name="com.lilei.fitness.view.HomepageActivity"
+62-->C:\Users\wsyi1\Desktop\Fitness\app\src\main\AndroidManifest.xml:52:13-50
+63            android:launchMode="singleTop"
+63-->C:\Users\wsyi1\Desktop\Fitness\app\src\main\AndroidManifest.xml:53:13-43
+64            android:screenOrientation="portrait" />
+64-->C:\Users\wsyi1\Desktop\Fitness\app\src\main\AndroidManifest.xml:54:13-49
+65        <activity
+65-->C:\Users\wsyi1\Desktop\Fitness\app\src\main\AndroidManifest.xml:55:9-58:52
+66            android:name="com.lilei.fitness.view.NewsDetailActivity"
+66-->C:\Users\wsyi1\Desktop\Fitness\app\src\main\AndroidManifest.xml:56:13-52
+67            android:launchMode="singleTop"
+67-->C:\Users\wsyi1\Desktop\Fitness\app\src\main\AndroidManifest.xml:57:13-43
+68            android:screenOrientation="portrait" />
+68-->C:\Users\wsyi1\Desktop\Fitness\app\src\main\AndroidManifest.xml:58:13-49
+69        <activity
+69-->C:\Users\wsyi1\Desktop\Fitness\app\src\main\AndroidManifest.xml:59:9-62:52
+70            android:name="com.lilei.fitness.view.BeforeDateCheckActivity"
+70-->C:\Users\wsyi1\Desktop\Fitness\app\src\main\AndroidManifest.xml:60:13-57
+71            android:launchMode="singleTop"
+71-->C:\Users\wsyi1\Desktop\Fitness\app\src\main\AndroidManifest.xml:61:13-43
+72            android:screenOrientation="portrait" />
+72-->C:\Users\wsyi1\Desktop\Fitness\app\src\main\AndroidManifest.xml:62:13-49
+73        <activity
+73-->C:\Users\wsyi1\Desktop\Fitness\app\src\main\AndroidManifest.xml:63:9-66:52
+74            android:name="com.lilei.fitness.view.CommentsListActivity"
+74-->C:\Users\wsyi1\Desktop\Fitness\app\src\main\AndroidManifest.xml:64:13-54
+75            android:launchMode="singleTop"
+75-->C:\Users\wsyi1\Desktop\Fitness\app\src\main\AndroidManifest.xml:65:13-43
+76            android:screenOrientation="portrait" />
+76-->C:\Users\wsyi1\Desktop\Fitness\app\src\main\AndroidManifest.xml:66:13-49
+77        <activity
+77-->C:\Users\wsyi1\Desktop\Fitness\app\src\main\AndroidManifest.xml:67:9-70:52
+78            android:name="com.lilei.fitness.view.FavorsListActivity"
+78-->C:\Users\wsyi1\Desktop\Fitness\app\src\main\AndroidManifest.xml:68:13-52
+79            android:launchMode="singleTop"
+79-->C:\Users\wsyi1\Desktop\Fitness\app\src\main\AndroidManifest.xml:69:13-43
+80            android:screenOrientation="portrait" />
+80-->C:\Users\wsyi1\Desktop\Fitness\app\src\main\AndroidManifest.xml:70:13-49
+81        <activity
+81-->C:\Users\wsyi1\Desktop\Fitness\app\src\main\AndroidManifest.xml:71:9-74:53
+82            android:name="com.lilei.fitness.view.VideoPlayer"
+82-->C:\Users\wsyi1\Desktop\Fitness\app\src\main\AndroidManifest.xml:72:13-45
+83            android:launchMode="singleTop"
+83-->C:\Users\wsyi1\Desktop\Fitness\app\src\main\AndroidManifest.xml:73:13-43
+84            android:screenOrientation="landscape" />
+84-->C:\Users\wsyi1\Desktop\Fitness\app\src\main\AndroidManifest.xml:74:13-50
+85
+86        <!-- test -->
+87        <activity
+87-->C:\Users\wsyi1\Desktop\Fitness\app\src\main\AndroidManifest.xml:77:9-80:53
+88            android:name="com.lilei.fitness.view.test.VideoPlayer"
+88-->C:\Users\wsyi1\Desktop\Fitness\app\src\main\AndroidManifest.xml:78:13-50
+89            android:launchMode="singleTop"
+89-->C:\Users\wsyi1\Desktop\Fitness\app\src\main\AndroidManifest.xml:79:13-43
+90            android:screenOrientation="landscape" />
+90-->C:\Users\wsyi1\Desktop\Fitness\app\src\main\AndroidManifest.xml:80:13-50
+91        <!-- test -->
+92
+93        <provider
+93-->[com.sangcomz:FishBun:0.6.5] C:\Users\wsyi1\.gradle\caches\transforms-2\files-2.1\399a75035ecf91c5dc8965343f87153e\FishBun-0.6.5\AndroidManifest.xml:12:9-20:20
+94            android:name="android.support.v4.content.FileProvider"
+94-->[com.sangcomz:FishBun:0.6.5] C:\Users\wsyi1\.gradle\caches\transforms-2\files-2.1\399a75035ecf91c5dc8965343f87153e\FishBun-0.6.5\AndroidManifest.xml:13:13-67
+95            android:authorities="com.lilei.fitness.provider"
+95-->[com.sangcomz:FishBun:0.6.5] C:\Users\wsyi1\.gradle\caches\transforms-2\files-2.1\399a75035ecf91c5dc8965343f87153e\FishBun-0.6.5\AndroidManifest.xml:14:13-60
+96            android:exported="false"
+96-->[com.sangcomz:FishBun:0.6.5] C:\Users\wsyi1\.gradle\caches\transforms-2\files-2.1\399a75035ecf91c5dc8965343f87153e\FishBun-0.6.5\AndroidManifest.xml:15:13-37
+97            android:grantUriPermissions="true" >
+97-->[com.sangcomz:FishBun:0.6.5] C:\Users\wsyi1\.gradle\caches\transforms-2\files-2.1\399a75035ecf91c5dc8965343f87153e\FishBun-0.6.5\AndroidManifest.xml:16:13-47
+98            <meta-data
+98-->[com.sangcomz:FishBun:0.6.5] C:\Users\wsyi1\.gradle\caches\transforms-2\files-2.1\399a75035ecf91c5dc8965343f87153e\FishBun-0.6.5\AndroidManifest.xml:17:13-19:58
+99                android:name="android.support.FILE_PROVIDER_PATHS"
+99-->[com.sangcomz:FishBun:0.6.5] C:\Users\wsyi1\.gradle\caches\transforms-2\files-2.1\399a75035ecf91c5dc8965343f87153e\FishBun-0.6.5\AndroidManifest.xml:18:17-67
+100                android:resource="@xml/provider_paths" />
+100-->[com.sangcomz:FishBun:0.6.5] C:\Users\wsyi1\.gradle\caches\transforms-2\files-2.1\399a75035ecf91c5dc8965343f87153e\FishBun-0.6.5\AndroidManifest.xml:19:17-55
+101        </provider>
+102
+103        <activity
+103-->[com.sangcomz:FishBun:0.6.5] C:\Users\wsyi1\.gradle\caches\transforms-2\files-2.1\399a75035ecf91c5dc8965343f87153e\FishBun-0.6.5\AndroidManifest.xml:22:9-25:72
+104            android:name="com.sangcomz.fishbun.ui.album.AlbumActivity"
+104-->[com.sangcomz:FishBun:0.6.5] C:\Users\wsyi1\.gradle\caches\transforms-2\files-2.1\399a75035ecf91c5dc8965343f87153e\FishBun-0.6.5\AndroidManifest.xml:23:13-71
+105            android:label="@string/album"
+105-->[com.sangcomz:FishBun:0.6.5] C:\Users\wsyi1\.gradle\caches\transforms-2\files-2.1\399a75035ecf91c5dc8965343f87153e\FishBun-0.6.5\AndroidManifest.xml:24:13-42
+106            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+106-->[com.sangcomz:FishBun:0.6.5] C:\Users\wsyi1\.gradle\caches\transforms-2\files-2.1\399a75035ecf91c5dc8965343f87153e\FishBun-0.6.5\AndroidManifest.xml:25:13-69
+107        <activity
+107-->[com.sangcomz:FishBun:0.6.5] C:\Users\wsyi1\.gradle\caches\transforms-2\files-2.1\399a75035ecf91c5dc8965343f87153e\FishBun-0.6.5\AndroidManifest.xml:26:9-28:72
+108            android:name="com.sangcomz.fishbun.ui.picker.PickerActivity"
+108-->[com.sangcomz:FishBun:0.6.5] C:\Users\wsyi1\.gradle\caches\transforms-2\files-2.1\399a75035ecf91c5dc8965343f87153e\FishBun-0.6.5\AndroidManifest.xml:27:13-73
+109            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+109-->[com.sangcomz:FishBun:0.6.5] C:\Users\wsyi1\.gradle\caches\transforms-2\files-2.1\399a75035ecf91c5dc8965343f87153e\FishBun-0.6.5\AndroidManifest.xml:28:13-69
+110    </application>
+111
+112</manifest>

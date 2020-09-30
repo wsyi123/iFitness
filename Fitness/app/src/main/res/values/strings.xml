@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">iFitness</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Welcome to iFitness</string>
+
+    <!-- Welcome Page -->
+    <string name="go_fitness">Fighting!</string>
+    <!-- Welcome Page -->
+
+    <!--Log in/Register-->
+    <string name="username">Username</string>
+    <string name="login_txt">Log in</string>
+    <string name="register_txt">Register</string>
+    <string name="sex">Gender</string>
+    <string name="male">Male</string>
+    <string name="female">Female</string>
+    <string name="height">Height</string>
+    <string name="weight">Weight</string>
+    <string name="password">Password</string>
+    <string name="repassword">Repassword</string>
+    <string name="hint_username">Enter user name</string>
+    <string name="hint_password">Enter password</string>
+    <string name="hint_repassword">Enter password again</string>
+    <string name="hint_height">Enter your height</string>
+    <string name="hint_weight">Enter your weight</string>
+    <!--Log in/Register-->
+
+    <!--Exercise-->
+    <string name="level_base_title"> Basic training</string>
+    <string name="level_base_head">iFitness - Primary</string>
+    <string name="level_base_info">8 minutes    40 kcal    L1 primary</string>
+    <string name="level_enhance_title"> Advanced training</string>
+    <string name="level_enhance_head">iFitness - Middle</string>
+    <string name="level_enhance_info">9minutes   60 kcal   L3 middle</string>
+    <string name="level_acme_title"> Devil training</string>
+    <string name="level_acme_head">iFitness - High</string>
+    <string name="level_acme_info">11minutes   100 kcal   L5 High</string>
+    <!--Exercise-->
+    
+    <!--Discover-->
+    <string name="slash">/</string>
+    <string name="found_top_info">Share the experience of muscle tearing</string>
+    <string name="found_list_top_title"> Experience sharing </string>
+    <!--Discover-->
+
+    <!--Me-->
+    <string name="me_homepage_text">My Homepage</string>
+    <string name="me_exercise_unit">Exercise Data</string>
+    <string name="me_record_uint">Accumulated punch card / day</string>
+    <string name="me_exit_text">Sign out</string>
+    <string name="me_comment_text">My comments</string>
+    <string name="me_record_text">Record</string>
+    <string name="me_favor_text">My favorites</string>
+    <string name="me_record_number">0</string>
+    <string name="me_app_version">V1.0</string>
+    <!--Me-->
+
+
+    <!-- Home -->
+    <string name="bottom_train">Exercise</string>
+    <string name="bottom_found">Discover</string>
+    <string name="bottom_me">Me</string>
+    <string name="title_train">Exercise</string>
+    <string name="title_found">Discover</string>
+    <string name="title_me">Me</string>
+    <!-- Home -->
+
+    <!--Check-->
+    <string name="date_check_text">Today Check in</string>
+    <string name="before_date_check_text">Daily Check in</string>
+    <!--Check-->
+    
+    <!--News-->
+    <string name="add_news_btn_release_txt">Send</string>
+    <string name="add_news_et_title_hint_text">Title</string>
+    <string name="add_news_et_hint_text">Share changes, share experiences, share exercises, share...</string>
+    <!--News-->
+
+    <!--Server-->
+    <string name="config_server_config_title">Server</string>
+    <string name="config_server_config_ip">IP address: </string>
+    <string name="config_server_config_ip_hint">Enter the server IP address</string>
+    <string name="config_server_config_port">Port number: </string>
+    <string name="config_server_config_port_hint">Enter the port number of the server</string>
+    <string name="config_btn_save_txt">Save</string>
+    <!--Server-->
+
+    <!--Homepage-->
+    <string name="homepage_can_not_modify">Not editable</string>
+    <string name="homepage_btn_update">Update</string>
+    <string-array name="sex_array">
+        <item>Male</item>
+        <item>Female</item>
+    </string-array>
+    <!--Homepage-->
+
+    <!--News plus-->
+    <string name="new_detail_comment">All comments</string>
+    <string name="new_detail_add_comment">Comment</string>
+    <string name="new_detail_add_favor">Add favourites</string>
+    <string name="new_detail_add_comment_hint">Add comment</string>
+    <!--News plus-->
+
+    <string name="loading_summary">Loading...</string>
+
+
+</resources>
